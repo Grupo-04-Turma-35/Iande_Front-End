@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nixie+One&display=swap");
+
+nav {
+  background-color: #e5c2a5;
+}
+
+.fs-16 {
+  font-size: 30px;
+  font-family: "Trade Winds", cursive;
+}
+
+.fs-25 {
+  font-size: 25px;
+  font-family: "Nixie One", cursive;
+  font-weight: bold;
+  color: black;
+}
+
+.fs-25:hover {
+  color: #e42230;
+}
+
+a {
+  cursor: pointer;
+}
+
+#login {
+  background-color: #e42230;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#login:hover {
+  background-color: #ffffff;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
