@@ -1,17 +1,44 @@
-/*
-************** ids para teste ****************
-*/
+/* Estilização do Bloco Início */
+/* Desenvolvido por: Dezena */
 
 #inicio {
-  background-color: tomato;
-  min-height: 1000px;
+  background-image: url("../../assets/img/pc.png");
+  height: 800px;
+  width: 100%;
+  text-align: left;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
 }
 
-#sobre {
-  background-color: blueviolet;
-  min-height: 1000px;
+.texto {
+  padding-top: 120px;
 }
 
-/*
-************** fim ids para teste ****************
-*/
+/* Fim da Estilização do Bloco Início */
+
+/* Estilização do Bloco Sobre */
+/* Desenvolvido por: Raffa */
+
+.sobre-nos {
+  list-style: none;
+  padding: 3px;
+}
+.sobre-nos li {
+  margin: 2%;
+  padding: 5px;
+}
+
+/* Fim da Estilização do Bloco Sobre */
+
+/* Estilização do Bloco Contato */
+/* Desenvolvido por: Lissa */
+
+.bg-contato {
+  background-color: #2c2f4b;
+}
+
+/* Fim da Estilização do Bloco Contato */
