@@ -7,11 +7,33 @@
   min-height: 1000px;
 }
 
-#sobre {
-  background-color: blueviolet;
-  min-height: 1000px;
-}
+
 
 /*
 ************** fim ids para teste ****************
+*/
+
+
+/*
+************** Inicio Sobre nós ****************
+*/
+
+.sobre-nos{
+  list-style: none;
+  padding: 3px;
+}
+.sobre-nos li{
+    margin: 2%;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+/*
+************** fim Sobre nós  ****************
 */
