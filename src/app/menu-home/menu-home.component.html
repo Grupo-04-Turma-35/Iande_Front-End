@@ -1,46 +1,40 @@
-<nav class="fixed-top navbar navbar-expand-lg navbar-light">
-  <button
-    class="navbar-toggler"
-    type="button"
-    data-toggle="collapse"
-    data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-  >
+<nav class="fixed-top navbar navbar-expand-lg navbar-light" id="nav">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto d-flex align-items-center">
-      <li class="nav-item active">
-        <a routerLink="/home"
-          ><img
-            src="assets/img/logo.png"
-            alt="Imagem do logo iande"
-            width="80px"
-            height="80px"
-        /></a>
-      </li>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto d-flex align-items-center">
+            <li class="nav-item active" id="img">
+                <a routerLink="/home"><img src="https://files.passeidireto.com/1cc481c0-d28a-4f01-814f-1d9c0d3d2a26/1cc481c0-d28a-4f01-814f-1d9c0d3d2a26.jpeg" alt="Imagem do logo iande" width="30px" height="30px" /></a>
+            </li>
 
-      <li class="nav-item pl-3">
-        <p class="m-0 font-weight-bolder text-dark fs-16">Îandé</p>
-      </li>
-    </ul>
+            <li class="nav-item active" id="logo">
+                <p class="m-0 font-weight-bolder text-dark fs-16">Îandé</p>
+            </li>
+        </ul>
 
-    <ul class="navbar-nav ml-auto d-flex align-items-center">
-      <li class="nav-item">
-        <a class="nav-link" href="#inicio"><p class="m-0 fs-25">Início</p></a>
-      </li>
-      <li class="nav-item pl-5">
-        <a class="nav-link" href="#sobre"><p class="m-0 fs-25">Sobre</p></a>
-      </li>
-      <li class="nav-item pl-5">
-        <a routerLink="/cadastrar"><p class="m-0 fs-25">Cadastrar</p></a>
-      </li>
-      <li class="nav-item pl-5 pr-5">
-        <a routerLink="/entrar"><p class="m-0 fs-25" id="login">Entrar</p></a>
-      </li>
-    </ul>
-  </div>
+        <ul class="navbar-nav ml-auto m-0 d-flex">
+            <li class="nav-item">
+                <a class="nav-link" href="#inicio" id="barra">
+                    <p class="fs-20">Início</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#sobre" id="barra">
+                    <p class="fs-20">Sobre</p>
+                </a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" routerLink="/cadastrar" id="barra">
+                    <p class="fs-20">Cadastrar</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a routerLink="/entrar">
+                    <p class="fs-20" id="login">Entrar</p>
+                </a>
+            </li>
+        </ul>
+    </div>
 </nav>

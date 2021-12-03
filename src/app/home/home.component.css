@@ -1,17 +1,15 @@
-/*
-************** ids para teste ****************
-*/
-
 #inicio {
-  background-color: tomato;
-  min-height: 1000px;
+    background-image: url('../../assets/img/pc.png');
+    height: 800px;
+    text-align: left;
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#sobre {
-  background-color: blueviolet;
-  min-height: 1000px;
+.texto {
+    padding-top: 120px;
 }
-
-/*
-************** fim ids para teste ****************
-*/
