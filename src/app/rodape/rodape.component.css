@@ -1,5 +1,5 @@
 footer {
-  background-color: #e5c2a5;
+  background-color: #54364b;
 }
 
 ul.social-network {
@@ -33,4 +33,8 @@ ul.social-network li {
 
 .fs-14 {
   font-size: 14px;
+}
+
+.bg-copyright {
+  background-color: #90384a;
 }
