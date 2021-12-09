@@ -12,6 +12,7 @@ import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { EntrarComponent } from './entrar/entrar.component';
 import { HomeComponent } from './home/home.component';
 import { MenuHomeComponent } from './menu-home/menu-home.component';
+import { InicioComponent } from './inicio/inicio.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { MenuHomeComponent } from './menu-home/menu-home.component';
     EntrarComponent,
     HomeComponent,
     MenuHomeComponent,
+    InicioComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
