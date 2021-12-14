@@ -1,103 +1,99 @@
-@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap");
-
-/*
+    @import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap");
+    /*
 animação do nav
 */
-
-nav {
-  background-color: #914655;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-nav li {
-  display: inline-block;
-  margin-left: 20px;
-  padding-top: 16px;
-  position: relative;
-}
-
-nav ul > li > a {
-  color: #f7f3ba;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Alata", sans-serif;
-}
-
-nav ul > li > a:hover {
-  color: #000;
-  transition: all ease-in-out 260ms;
-}
-
-nav ul > li > a::before {
-  content: "";
-  display: block;
-  height: 5px;
-  width: 0%;
-  background-color: #000;
-  position: absolute;
-  top: 0;
-  transition: all ease-in-out 260ms;
-}
-
-nav ul > li > #barra:hover::before {
-  width: 100%;
-}
-
-p {
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-#img {
-  padding-top: 0;
-}
-
-#logo {
-  padding-top: 0;
-}
-
-/*
+    
+    nav {
+        background-color: #f2ed5fab;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    nav li {
+        display: inline-block;
+        position: relative;
+    }
+    
+    #logo {
+        margin-left: 20px;
+    }
+    
+    nav ul>li>a {
+        color: #f7f3ba;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: "Alata", sans-serif;
+        transition: all ease-in-out 260ms;
+    }
+    
+    nav ul>li>a:hover {
+        color: rgb(162, 0, 0);
+        transition: all ease-in-out 260ms;
+    }
+    
+    nav ul>li>a::before {
+        content: "";
+        display: block;
+        height: 5px;
+        width: 0%;
+        background-color: rgb(162, 0, 0);
+        position: absolute;
+        top: 0;
+        transition: all ease-in-out 260ms;
+    }
+    
+    nav ul>li>#barra:hover::before {
+        width: 100%;
+    }
+    
+    p {
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+    
+    #img {
+        padding-top: 0;
+    }
+    
+    #logo {
+        padding-top: 0;
+    }
+    /*
  fim animação do nav
 */
-
-.fs-16 {
-  font-size: 20px;
-  font-family: "Trade Winds", cursive;
-}
-
-.fs-20 {
-  font-size: 15px;
-  font-weight: bold;
-  color: black;
-}
-
-.fs-20:hover {
-  color: #e42230;
-}
-
-a {
-  cursor: pointer;
-}
-
-#login {
-  background-color: #ffffff;
-  color: #914655;
-  padding: 10px;
-  border-radius: 5px;
-  transition: all ease-in-out 260ms;
-}
-
-#login:hover {
-  background-color: #e42230;
-  color: #ffffff;
-  padding: 10px;
-  border-radius: 5px;
-  transition: all ease-in-out 260ms;
-}
-
-#nav {
-  opacity: 1;
-}
+    
+    .fs-16 {
+        font-size: 20px;
+        font-family: "Trade Winds", cursive;
+    }
+    
+    .fs-20 {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    a {
+        cursor: pointer;
+    }
+    
+    #login {
+        background-color: #ffffff;
+        color: #914655;
+        padding: 10px;
+        border-radius: 5px;
+        transition: all ease-in-out 260ms;
+    }
+    
+    #login:hover {
+        background-color: #e4cd22;
+        color: #000000;
+        padding: 10px;
+        border-radius: 5px;
+        transition: all ease-in-out 260ms;
+    }
+    
+    #nav {
+        opacity: 1;
+    }

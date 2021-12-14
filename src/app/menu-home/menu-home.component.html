@@ -1,61 +1,47 @@
 <!-- Desenvolvido por: Dezena -->
 
 <nav class="fixed-top navbar navbar-expand-lg navbar-light" id="nav">
-  <button
-    class="navbar-toggler"
-    type="button"
-    data-toggle="collapse"
-    data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-  >
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto d-flex align-items-center">
-      <li class="nav-item active" id="img">
-        <a routerLink="/home"
-          ><img
-            src="../../assets/img/logo.png"
-            alt="Imagem do logo iande"
-            width="30px"
-            height="30px"
-        /></a>
-      </li>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto d-flex align-items-center" id="logo">
+            <li class="nav-item active" id="img">
+                <a routerLink="/home"><img src="../../assets/img/logo.png" alt="Imagem do logo iande" width="30px" height="30px" /></a>
+            </li>
 
-      <li class="nav-item active" id="logo">
-        <p class="m-0 font-weight-bolder text-white fs-16">Îandé</p>
-      </li>
-    </ul>
+            <li class="nav-item active" id="logo">
+                <p class="m-0 font-weight-bolder text-white fs-16">Îandé</p>
+            </li>
+        </ul>
 
-    <ul class="navbar-nav ml-auto m-0 d-flex">
-      <li class="nav-item">
-        <a class="nav-link" href="#start" id="barra" (click)="home()">
-          <p class="fs-20 text-white">Início</p>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#sobre" id="barra" (click)="home()">
-          <p class="fs-20 text-white">Sobre</p>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contato" id="barra" (click)="home()">
-          <p class="fs-20 text-white">Contato</p>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/cadastrar" id="barra">
-          <p class="fs-20 text-white">Cadastrar</p>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a routerLink="/entrar">
-          <p class="fs-20" id="login">Entrar</p>
-        </a>
-      </li>
-    </ul>
-  </div>
+        <ul class="navbar-nav mr-0 ml-0 d-flex align-items-center" id="nave">
+            <li class="nav-item">
+                <a class="nav-link" href="#start" id="barra" (click)="home()">
+                    <p class="fs-20 ">Início</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#sobre" id="barra" (click)="home()">
+                    <p class="fs-20 ">Sobre</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contato" id="barra" (click)="home()">
+                    <p class="fs-20 ">Contato</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/cadastrar" id="barra">
+                    <p class="fs-20 ">Cadastrar</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a routerLink="/entrar">
+                    <p class="fs-20" id="login">Entrar</p>
+                </a>
+            </li>
+        </ul>
+    </div>
 </nav>
