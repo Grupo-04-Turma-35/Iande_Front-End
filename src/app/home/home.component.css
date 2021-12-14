@@ -1,9 +1,9 @@
 /* Estilização do Bloco Início */
 /* Desenvolvido por: Dezena */
 
-#inicio {
+.inicio {
   background-image: url("../../assets/img/pc.png");
-  height: 800px;
+  height: 1000px;
   width: 100%;
   text-align: left;
   background-attachment: fixed;
