@@ -2,9 +2,11 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-
-import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { AppRoutingModule } from './app-routing.module';
+import { ModalModule } from 'ngx-bootstrap/modal';
+import { OrderModule } from 'ngx-order-pipe';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
@@ -13,6 +15,8 @@ import { EntrarComponent } from './entrar/entrar.component';
 import { HomeComponent } from './home/home.component';
 import { MenuHomeComponent } from './menu-home/menu-home.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { AlertasComponent } from './alertas/alertas.component';
+import { TemaComponent } from './tema/tema.component';
 
 @NgModule({
   declarations: [
@@ -24,9 +28,18 @@ import { InicioComponent } from './inicio/inicio.component';
     HomeComponent,
     MenuHomeComponent,
     InicioComponent,
+    AlertasComponent,
+    TemaComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
-  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    ModalModule.forRoot(),
+    OrderModule,
+  ],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
