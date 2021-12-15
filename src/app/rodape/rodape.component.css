@@ -1,40 +1,40 @@
 footer {
-  background-color: #54364b;
+    background-color: #EA9010;
 }
 
 ul.social-network {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 ul.social-network li {
-  display: inline;
-  margin: 0;
-  padding: 5px;
+    display: inline;
+    margin: 0;
+    padding: 5px;
 }
 
 .fa {
-  font-size: 30pt;
-  color: #fff;
-  padding: 10px;
+    font-size: 30pt;
+    color: #fff;
+    padding: 10px;
 }
 
 .fa-facebook-square:hover {
-  color: #3b5998;
+    color: #3b5998;
 }
 
 .fa-instagram:hover {
-  color: #c13584;
+    color: #c13584;
 }
 
 .fa-linkedin-square:hover {
-  color: #0072b1;
+    color: #0072b1;
 }
 
 .fs-14 {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .bg-copyright {
-  background-color: #90384a;
+    background-color: #37371F;
 }

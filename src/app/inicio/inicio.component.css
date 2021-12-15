@@ -24,7 +24,14 @@
 .bg-image {
     background-image: url('https://petitspixels.com/blg/wp-content/uploads/2017/12/black-red-white-zigzags-pattern-petitspixels.png');
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
-    min-height: 70vh;
+    min-height: 80vh;
+}
+
+.mt-custom {
+    margin-top: 90px;
+}
+
+.fs-46 {
+    font-size: 46pt;
 }

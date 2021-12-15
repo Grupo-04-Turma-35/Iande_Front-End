@@ -1,11 +1,11 @@
 nav {
-  background-color: #e5c2a5;
+    background-color: #e5c2a550;
 }
 
 .fs-16 {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 a {
-  cursor: pointer;
+    cursor: pointer;
 }
