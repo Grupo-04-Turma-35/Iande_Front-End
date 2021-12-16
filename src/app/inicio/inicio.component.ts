@@ -17,13 +17,18 @@ import { TemaService } from '../service/tema.service';
 export class InicioComponent implements OnInit {
   postagem: Postagem = new Postagem();
   listPostagens: Postagem[];
+  tituloPost: string;
 
   tema: Tema = new Tema();
   listTemas: Tema[];
   idTema: number;
+  nomeTema: string;
 
   usuario: Usuario = new Usuario();
   idUsuario = environment.id;
+
+  key = 'data';
+  reverse = true;
 
   nome = environment.nome;
   foto = environment.foto;
@@ -85,5 +90,28 @@ export class InicioComponent implements OnInit {
         this.postagem = new Postagem();
         this.getAllPostagens();
       });
+  }
+  findByTituloPostagem() {
+    if (this.tituloPost == '') {
+      this.getAllPostagens();
+    } else {
+      this.postagemService
+        .getByTituloPostagem(this.tituloPost)
+        .subscribe((resp: Postagem[]) => {
+          this.listPostagens = resp;
+        });
+    }
+  }
+
+  findByNomeTema() {
+    if (this.nomeTema == '') {
+      this.getAllTemas();
+    } else {
+      this.temaService
+        .getByNomeTema(this.nomeTema)
+        .subscribe((resp: Tema[]) => {
+          this.listTemas = resp;
+        });
+    }
   }
 }
