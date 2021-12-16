@@ -1,44 +1,44 @@
 #bg-cadastrar {
-  background-image: url("../../assets/img/bg01.jpg");
-  min-height: 927px;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #464646;
+    background-image: url("../../assets/img/bg01.jpg");
+    min-height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
 }
 
 #img-tp {
-  background-image: linear-gradient(75deg, #595454ec, #f2ed5f85);
-  padding: 5px;
-  padding-top: 40px;
-  padding-bottom: 60px;
-  border-radius: 20px;
-  margin-top: 20px;
+    background-image: linear-gradient(75deg, #595454ec, #f2ed5f85);
+    padding: 5px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+    margin-top: 20px;
 }
 
 .mt-110 {
-  margin-top: 110px;
+    margin-top: 50px;
 }
 
 input,
 select {
-  background-color: #cacaca;
+    background-color: #cacaca;
 }
 
 button {
-  border-color: #a09e9e;
-  border-style: outset;
+    border-color: #a09e9e;
+    border-style: outset;
 }
 
 button.cancel {
-  background-color: #a00e0e;
-  color: #ffffff;
-  font-weight: 500;
+    background-color: #a00e0e;
+    color: #ffffff;
+    font-weight: 500;
 }
 
 button.register {
-  background-color: #258830;
-  color: #ffffff;
-  font-weight: 500;
+    background-color: #258830;
+    color: #ffffff;
+    font-weight: 500;
 }
