@@ -1,7 +1,5 @@
 <div class="fixed-bottom d-flex justify-content-end">
-    <button class="btn postar mr-5 mb-5" data-toggle="modal" data-target="#novaPostagem">
-    Nova Postagem
-  </button>
+
 </div>
 
 
@@ -12,23 +10,43 @@
     <div class="row mr-0 justify-content-start">
         <!--navegação-->
 
-        <div class="col-3 mr-4">
+        <div class="col-3 mr-4 rounded-bottom">
 
-            <div class="nav col-3 flex-column nav-pills  position-fixed bg-principal d-flex justify-content-end" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+            <div class="nav col-3 flex-column nav-pills rounded-bottom position-fixed bg-principal pt-2  d-flex justify-content-end" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <div class="text-center">
+                    <img src="{{foto}}" alt="" height="200px" width="200px" class="rounded-circle">
+                    <h2>{{nome}}</h2>
+
+
+                    <div *ngIf="authService.adm()" class="nav-item pl-3">
+                        <a [routerLink]="['/user-edit', idUsuario]">
+                            <p class="m-0 fs-16">
+                                editar usuário <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                            </p>
+                        </a>
+                    </div>
+
+
+                </div>
                 <a class="nav-link active mt-5 mb-3" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Todas as postagens</a>
                 <a class="nav-link mb-3" (click)="findByIdUser()" id="v-pills-profile-tab" data-toggle="pill" href="#minhasPostagens" role="tab" aria-controls="v-pills-profile" aria-selected="false">Minhas postagens</a>
                 <a class="nav-link mb-5" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Postagens por tema</a>
+                <button class="btn postar mr-5 mb-5" data-toggle="modal" data-target="#novaPostagem">
+                  Nova Postagem
+                </button>
             </div>
 
         </div>
 
-        <div class="col-6 bg-principal pl-5">
+        <div class="col-8 bg-principal pl-5">
             <div class="tab-content" id="v-pills-tabContent">
 
                 <!--todas postagens-->
                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                     <div class="row d-flex justify-content-center mt-5 mb-5">
-                        <div class="col-md-4">
+                        <div class="col-md-6">
+                            <h1>Todas as postagens</h1>
                             <div class="form-group">
                                 <input type="text" class="form-control" id="titulo" placeholder="Pesquisar titulo" [(ngModel)]="tituloPost" (keyup)="findByTituloPostagem()" />
                             </div>
@@ -60,6 +78,11 @@
 
                 <!--Minhas postagens-->
                 <div class="tab-pane fade" id="minhasPostagens" role="tabpanel" aria-labelledby="nav-minhasPostagens-tab">
+                    <div class="row d-flex justify-content-center mt-5 mb-5">
+                        <div class="col-md-6">
+                            <h1>Minhas postagens</h1>
+                        </div>
+                    </div>
                     <div class="card">
                         <div class="card text-center" *ngFor="let item of usuario.postagem | orderBy: key:reverse">
                             <img src="{{ item.imagem }}" class="card-img-top" />
@@ -96,7 +119,8 @@
 
 
                   <div class="row d-flex justify-content-center mt-5 mb-5">
-                    <div class="col-md-4">
+                    <div class="col-md-6">
+                      <h1>Postagens por tema</h1>
                       <div class="form-group mb-5">
                         <input
                           type="text"
