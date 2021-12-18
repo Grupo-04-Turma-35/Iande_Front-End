@@ -1,0 +1,23 @@
+.mt-tema {
+  margin-top: 48px;
+}
+.body {
+  background-image: url("../../assets/img/land.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.row {
+  padding-bottom: 100px;
+  padding-top: 80px;
+}
+
+.bg-novotema {
+  background-image: linear-gradient(45deg, #595454ec, #f2ed5fab);
+  border-radius: 30px;
+}
+
+.bord {
+  border-radius: 15px;
+}

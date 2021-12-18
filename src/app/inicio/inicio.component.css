@@ -1,38 +1,47 @@
 .postar {
-    background-color: #ea9010;
+  background-color: #ea9010;
+  margin-left: 50px;
 }
 
 .postar:hover {
-    background-color: #c9e3ac;
+  background-color: #c9e3ac;
 }
 
 .bg-principal {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .body {
-    background-image: url("https://i2.wp.com/files.123freevectors.com/wp-content/original/104226-red-stripes-pattern.jpg?");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  background-image: url("../../assets/img/background-leaves.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .verde {
-    color: #90be6d;
+  color: #90be6d;
 }
 
 .bg-image {
-    background-image: url("https://petitspixels.com/blg/wp-content/uploads/2017/12/black-red-white-zigzags-pattern-petitspixels.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    min-height: 70vh;
+  background-image: url("https://petitspixels.com/blg/wp-content/uploads/2017/12/black-red-white-zigzags-pattern-petitspixels.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 70vh;
 }
 
 .mt-custom {
-    margin-top: 90px;
+  margin-top: 90px;
 }
 
 .fs-46 {
-    font-size: 46pt;
+  font-size: 46pt;
+}
+
+.bg-modal {
+  background-color: #e9e7b5d4;
+}
+
+.text-link {
+  color: #b30a0a;
 }

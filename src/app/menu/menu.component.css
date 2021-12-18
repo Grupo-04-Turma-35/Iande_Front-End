@@ -1,11 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap");
+
 nav {
-    background-color: rgb(255, 255, 255);
+  background-color: #f2ed5f64;
 }
 
-.fs-16 {
-    font-size: 16px;
+.fs-20 {
+  font-size: 20px;
+  font-family: "Trade Winds", cursive;
 }
 
 a {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+#logo {
+  margin-left: 20px;
+}
+
+#img {
+  padding-top: 0;
 }
