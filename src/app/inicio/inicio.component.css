@@ -13,6 +13,7 @@
 
 .body {
   background-image: url("../../assets/img/background-leaves.jpg");
+  min-height: 95vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

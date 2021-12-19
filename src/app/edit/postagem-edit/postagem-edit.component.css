@@ -1,0 +1,21 @@
+#bg-edit {
+  background-image: url("../../../assets/img/arqtech.jpg");
+  min-height: 95vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#bg-post {
+  background-image: linear-gradient(45deg, #595454ec, #f1f1e3c4);
+  padding: 5px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
