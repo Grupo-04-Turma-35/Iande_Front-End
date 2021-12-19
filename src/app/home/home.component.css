@@ -4,10 +4,34 @@
 /* Desenvolvido por: Dezena */
 
 .inicio {
-    background-image: url("../../assets/img/pc.png");
+    background-image: url("https://media.istockphoto.com/photos/aerial-view-on-spacious-pine-forest-at-sunrise-picture-id495508534?b=1&k=20&m=495508534&s=170667a&w=0&h=sRCy3kCzK32SoXh5Qh_8551gpO7Ss8eWD2uoTmg5kd4=");
     height: 75vh;
     width: 100%;
     text-align: left;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.cores {
+    background-image: url('https://www.publicdomainpictures.net/pictures/240000/velka/color-gradient-background.jpg');
+    height: 5vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.final {
+    background-image: url('https://api.time.com/wp-content/uploads/2018/05/forest-bathing.jpg');
+    height: 50vh;
+    width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

@@ -6,7 +6,7 @@ animação do nav
 */
 
 nav {
-    background-color: #3c3731;
+    background-color: #f5e041bf;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -22,7 +22,7 @@ nav li {
 }
 
 nav ul>li>a {
-    color: #f7f3ba;
+    color: #000000;
     text-decoration: none;
     text-transform: uppercase;
     font-family: "Alata", sans-serif;
