@@ -5,7 +5,7 @@
 
 .inicio {
     background-image: url("../../assets/img/pc.png");
-    height: 1000px;
+    height: 75vh;
     width: 100%;
     text-align: left;
     background-attachment: fixed;
@@ -18,6 +18,14 @@
 
 .texto {
     padding-top: 120px;
+}
+
+#sobre {
+    background-color: rgb(255, 255, 255);
+}
+
+.contato {
+    background-color: rgb(255, 248, 208);
 }
 
 
