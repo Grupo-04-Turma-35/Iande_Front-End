@@ -1,26 +1,40 @@
-<nav class="navbar navbar-expand-lg navbar-light fixed-top">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="fixed-top navbar navbar-expand-lg navbar-light" id="nav">
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
     <span class="navbar-toggler-icon"></span>
   </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto d-flex align-items-center">
-            <img src="../../assets/img/logo.png" alt="Imagem do logo iande" width="30px" height="30px" />
-            <p> Íandê</p>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto d-flex align-items-center" id="logo">
+      <li class="nav-item active" id="img">
+        <img
+          src="../../assets/img/logo.png"
+          alt="Imagem do logo iande"
+          width="30px"
+          height="30px"
+        />
+      </li>
 
+      <li class="nav-item active" id="logo">
+        <p class="m-0 font-weight-bolder text-white fs-20">Îandé</p>
+      </li>
+    </ul>
 
-
-
-        </ul>
-
-        <ul class="navbar-nav ml-auto d-flex align-items-center">
-            <li class="nav-item pl-3">
-                <a (click)="sair()">
-                    <p class="m-0 font-weight-bolder text-dark fs-16">
-                        Sair <i class="fa fa-sign-out" aria-hidden="true"></i>
-                    </p>
-                </a>
-            </li>
-        </ul>
-    </div>
+    <ul class="navbar-nav mr-0 ml-0 d-flex align-items-center" id="nave">
+      <li class="nav-item pl-3">
+        <a (click)="sair()">
+          <p class="m-0 font-weight-bolder text-white fs-16">
+            Sair <i class="fa fa-sign-out" aria-hidden="true"></i>
+          </p>
+        </a>
+      </li>
+    </ul>
+  </div>
 </nav>

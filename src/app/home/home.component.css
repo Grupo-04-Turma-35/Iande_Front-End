@@ -1,56 +1,91 @@
 /* Estilização do Bloco Início */
 
-
 /* Desenvolvido por: Dezena */
 
 .inicio {
-    background-image: url("../../assets/img/pc.png");
-    height: 1000px;
-    width: 100%;
-    text-align: left;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
+  background-image: url("https://media.istockphoto.com/photos/aerial-view-on-spacious-pine-forest-at-sunrise-picture-id495508534?b=1&k=20&m=495508534&s=170667a&w=0&h=sRCy3kCzK32SoXh5Qh_8551gpO7Ss8eWD2uoTmg5kd4=");
+  height: 75vh;
+  width: 100%;
+  text-align: left;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.cores {
+  background-image: url("https://image.freepik.com/free-photo/blurred-abstract-background_58702-1518.jpg");
+  height: 5vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.final {
+  background-image: url("https://api.time.com/wp-content/uploads/2018/05/forest-bathing.jpg");
+  height: 50vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
 }
 
 .texto {
-    padding-top: 120px;
+  padding-top: 120px;
 }
 
+#sobre {
+  background-image: linear-gradient(45deg, #cccaca, #f7d3b6);
+}
+
+.contato {
+  background-image: linear-gradient(45deg, #b5b2b2, #f6e2d2);
+}
 
 /* Fim da Estilização do Bloco Início */
 
-
 /* Estilização do Bloco Sobre */
-
 
 /* Desenvolvido por: Raffa */
 
 .sobre-nos {
-    list-style: none;
-    padding: 3px;
+  list-style: none;
+  padding: 3px;
+  text-decoration: none;
 }
 
 .sobre-nos li {
-    margin: 2%;
-    padding: 5px;
+  margin: 2%;
+  padding: 5px;
 }
-
 
 /* Fim da Estilização do Bloco Sobre */
 
-
 /* Estilização do Bloco Contato */
-
 
 /* Desenvolvido por: Lissa */
 
 .bg-contato {
-    background-color: #2c2f4b;
+  background-color: #2c2f4b;
 }
 
-
 /* Fim da Estilização do Bloco Contato */
+
+ul li a {
+  color: #2070da;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.text-purple {
+  color: #582879;
+}

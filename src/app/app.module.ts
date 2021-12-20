@@ -22,6 +22,7 @@ import { PostagemEditComponent } from './edit/postagem-edit/postagem-edit.compon
 import { UserEditComponent } from './edit/user-edit/user-edit.component';
 import { TemaDeleteComponent } from './delete/tema-delete/tema-delete.component';
 import { PostagemDeleteComponent } from './delete/postagem-delete/postagem-delete.component';
+import { RodapeHomeComponent } from './rodape-home/rodape-home.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { PostagemDeleteComponent } from './delete/postagem-delete/postagem-delet
     UserEditComponent,
     TemaDeleteComponent,
     PostagemDeleteComponent,
+    RodapeHomeComponent,
   ],
   imports: [
     BrowserModule,
